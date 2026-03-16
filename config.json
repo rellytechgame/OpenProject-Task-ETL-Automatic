@@ -1,0 +1,68 @@
+{
+  "openproject": {
+    "base_url": "https://openproject.com/",
+    "api_token": "TU_TOKEN_DE_OPENPROJECT"
+  },
+  "ai_settings": {
+    "active_provider": "deepseek",
+    "providers": {
+      "openai": {
+        "api_key": "sk-...",
+        "model": "gpt-4-turbo",
+        "base_url": null
+      },
+      "gemini": {
+        "api_key": "AIza...",
+        "model": "gemini-1.5-pro",
+        "base_url": null
+      },
+      "grok": {
+        "api_key": "xoxb...",
+        "model": "grok-beta",
+        "base_url": "https://api.x.ai/v1"
+      },
+      "mistral": {
+        "api_key": "...",
+        "model": "mistral-large-latest",
+        "base_url": "https://api.mistral.ai/v1"
+      },
+      "deepseek": {
+        "api_key": "sk-...",
+        "model": "deepseek-chat",
+        "base_url": "https://api.deepseek.com/v1"
+      },
+      "opencode": {
+        "api_key": "...",
+        "model": "opencode-model",
+        "base_url": "https://api.opencode.com/v1"
+      }
+    }
+  },
+  "work_schedule": {
+    "timezone": "America/Panama",
+    "rules": [
+      {
+        "name": "Horario Regular Semana",
+        "enabled": true,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "daily_limits": {
+          "min_hours": 8.0,
+          "max_hours": 9.5
+        }
+      },
+      {
+        "name": "Horario Especial Fin de Semana",
+        "enabled": false,
+        "days": ["Saturday", "Sunday"],
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "daily_limits": {
+          "min_hours": 3.5,
+          "max_hours": 4.0
+        }
+      }
+    ]
+  }
+}
