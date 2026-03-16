@@ -39,5 +39,5 @@ Sigue estos pasos para desplegar esta herramienta de grado empresarial en tu ent
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/tu-usuario/voxel-autotime.git](https://github.com/tu-usuario/voxel-autotime.git)
+git clone [https://github.com/rellytechgame/OpenProject-Task-ETL-Automatic.git](https://github.com/rellytechgame/OpenProject-Task-ETL-Automatic.git)
 cd voxel-autotime
